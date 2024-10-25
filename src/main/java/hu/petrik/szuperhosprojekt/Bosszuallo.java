@@ -2,7 +2,7 @@ package hu.petrik.szuperhosprojekt;
 
 public abstract class Bosszuallo implements Szuperhos {
 
-    private float szuperero;
+    private double szuperero;
     private boolean vanEGyengesege;
 
     public Bosszuallo(float szuperero, boolean vanEGyengesege) {
@@ -12,7 +12,7 @@ public abstract class Bosszuallo implements Szuperhos {
 
     public abstract boolean megmentiAVilagot();
 
-    public float getSzuperero() {
+    public double getSzuperero() {
         return szuperero;
     }
 
@@ -20,7 +20,7 @@ public abstract class Bosszuallo implements Szuperhos {
         return vanEGyengesege;
     }
 
-    public void setSzuperero(float szuperero) {
+    public void setSzuperero(double szuperero) {
         this.szuperero = szuperero;
     }
 
